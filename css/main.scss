@@ -1,0 +1,16 @@
+@import "../node_modules/nord/src/sass/nord.scss";
+
+body {
+  margin: 0px;
+  background-color: $nord0;
+}
+
+#Cat {
+  position: absolute;
+  width: 300px;
+  height: 223px;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -111.5px;
+}
