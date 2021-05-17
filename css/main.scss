@@ -1,16 +1,18 @@
 @import "../node_modules/nord/src/sass/nord.scss";
 
-body {
-  margin: 0px;
-  background-color: $nord0;
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color: $nord0;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #Cat {
-  position: absolute;
-  width: 300px;
-  height: 223px;
-  left: 50%;
-  top: 50%;
-  margin-left: -150px;
-  margin-top: -111.5px;
+  width: 25%;
 }

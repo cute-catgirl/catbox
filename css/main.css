@@ -1,16 +1,18 @@
-body {
-  margin: 0px;
+body, html {
+  margin: 0;
+  padding: 0;
   background-color: #2E3440;
 }
 
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 #Cat {
-  position: absolute;
-  width: 300px;
-  height: 223px;
-  left: 50%;
-  top: 50%;
-  margin-left: -150px;
-  margin-top: -111.5px;
+  width: 25%;
 }
 
 /*# sourceMappingURL=main.css.map */

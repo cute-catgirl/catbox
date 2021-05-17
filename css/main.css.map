@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["main.scss","../node_modules/nord/src/sass/nord.scss"],"names":[],"mappings":"AAEA;EACE;EACA,kBCuCM;;;ADpCR;EACE;EACA;EACA;EACA;EACA;EACA;EACA","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["main.scss","../node_modules/nord/src/sass/nord.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA,kBCsCI;;;ADnCR;EACE;EACA;EACA;EACA;;;AAGF;EACE","file":"main.css"}
