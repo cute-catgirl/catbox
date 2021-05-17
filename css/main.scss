@@ -4,15 +4,31 @@ body,html {
     margin: 0;
     padding: 0;
     background-color: $nord0;
+    overflow: hidden;
 }
 
-.Container {
+#Container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  animation: Floating 3s ease-in-out infinite;
 }
 
 #Cat {
   width: 25%;
+  transition: width 0.2s;
+}
+
+#Cat:hover {
+  width: 30%;
+}
+
+@keyframes Floating {
+  0%, 100% {
+    height: 90vh;
+  }
+  50% {
+    height: 110vh;
+  }
 }

@@ -1,9 +1,10 @@
-var catNum = getRandomInt(1, 3);
-console.log(catNum);
+var catNum = 0;
 
-function openBox() {
-
-}
+$("#Cat").click(function(){
+  catNum = getRandomInt(1, 4);
+  $(this).src = "images/cat" + catNum + ".png";
+  console.log("cat")
+});
 
 function getRandomInt(min, max) {
     min = Math.ceil(min);
