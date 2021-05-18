@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "nord": "^0.2.1"
+    "nord": "^0.2.1",
+    "overlayscrollbars": "^1.13.1"
   }
 }
