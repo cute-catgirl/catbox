@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body {
+  background-color: #2E3440;
+  color: #ECEFF4;
+  font-family: sans-serif;
+}
+
+ul, ol {
+  color: #D8DEE9;
+  list-style: none;
+}
+
+#addition::before {
+  content: "+ ";
+}
+
+#removal::before {
+  content: "− ";
+}
+
+#neutral::before {
+  content: "~ ";
+}
+
+/*# sourceMappingURL=changelog.css.map */

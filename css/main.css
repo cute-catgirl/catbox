@@ -19,6 +19,7 @@ h6 {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  z-index: -1;
 }
 
 #Credits {
@@ -27,6 +28,15 @@ h6 {
   position: fixed;
   bottom: -20px;
   left: 10px;
+}
+
+#Changelog {
+  color: #D8DEE9;
+  font-family: sans-serif;
+  position: fixed;
+  text-decoration: none;
+  top: 10px;
+  right: 10px;
 }
 
 #Cat {

@@ -1,0 +1,27 @@
+@import "../node_modules/nord/src/sass/nord.scss";
+
+body {
+  background-color: $nord0;
+  color: $nord6;
+  font-family: sans-serif;
+}
+
+ul, ol {
+  color: $nord4;
+  list-style: none;
+}
+
+#addition::before
+{
+    content: '+ ';
+}
+
+#removal::before
+{
+    content: '− ';
+}
+
+#neutral::before
+{
+    content: '~ ';
+}

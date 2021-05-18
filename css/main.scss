@@ -32,6 +32,15 @@ h6 {
   left: 10px;
 }
 
+#Changelog {
+  color: $nord4;
+  font-family: sans-serif;
+  position: fixed;
+  text-decoration: none;
+  top: 10px;
+  right: 10px;
+}
+
 #Cat {
   width: 25%;
   transition: width 0.2s;
