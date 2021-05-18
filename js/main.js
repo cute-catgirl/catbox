@@ -5,6 +5,11 @@ $(function () {
   animateFloat();
 });
 
+$.modal.defaults = {
+  closeExisting: true,    // Close existing modals. Set this to false if you need to stack multiple modal instances.
+  escapeClose: true,      // Allows the user to close the modal by pressing `ESC`
+  clickClose: true,       // Allows the user to close the modal by clicking the overlay
+};
 
 $("#Cat").click(function(){
   catNum = getRandomInt(1, 4);
