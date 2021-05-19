@@ -6,6 +6,11 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color: $nord10;
+  text-decoration: none;
+}
+
 ul, ol {
   color: $nord4;
   list-style: none;

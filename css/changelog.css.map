@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["changelog.scss","../node_modules/nord/src/sass/nord.scss"],"names":[],"mappings":";AAEA;EACE,kBCwCM;EDvCN,OCmJM;EDlJN;;;AAGF;EACE,OCwHM;EDvHN;;;AAGF;EAEI;;;AAGJ;EAEI;;;AAGJ;EAEI","file":"changelog.css"}
+{"version":3,"sourceRoot":"","sources":["changelog.scss","../node_modules/nord/src/sass/nord.scss"],"names":[],"mappings":";AAEA;EACE,kBCwCM;EDvCN,OCmJM;EDlJN;;;AAGF;EACE,OCwLO;EDvLP;;;AAGF;EACE,OCmHM;EDlHN;;;AAGF;EAEI;;;AAGJ;EAEI;;;AAGJ;EAEI","file":"changelog.css"}

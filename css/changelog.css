@@ -5,6 +5,11 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color: #5E81AC;
+  text-decoration: none;
+}
+
 ul, ol {
   color: #D8DEE9;
   list-style: none;

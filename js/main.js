@@ -14,6 +14,7 @@ $.modal.defaults = {
 $("#Cat").click(function(){
   catNum = getRandomInt(1, 4);
   if ($(this).attr('src') == 'images/box.png') {
+    conffetiBlast();
     $(this).attr("src","images/cat" + catNum + ".png");
     $("#Credits").html(creditsList[catNum-1]);
   }
