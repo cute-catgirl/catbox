@@ -31,17 +31,21 @@ $("#Cat").click(function(){
 });
 
 function animateFloat() {
-  $("#Container").animate({height: '110vh'},1000);
-  $("#Container").animate({height: '90vh'},1000,animateBack);
-}
-
-function animateBack() {
   if ($('#Cat').attr('src') == 'images/box.png') {
-    animateFloat();
+    $("#Container").animate({height: '110vh'},1000);
   }
   else {
     $("#Container").animate({height: '100vh'},500);
+    return;
   }
+  if ($('#Cat').attr('src') == 'images/box.png') {
+    $("#Container").animate({height: '90vh'},1000);
+  }
+  else {
+    $("#Container").animate({height: '100vh'},500);
+    return;
+  }
+  animateFloat();
 }
 
 function getRandomInt(min, max) {
