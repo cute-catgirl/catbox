@@ -2,8 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>The Catbox</title>
+    <title>Catbox</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
@@ -16,16 +17,21 @@
     </div>
     <h6 id="Credits"></h6>
     <div id="ex1" class="modal">
-      <h3>About</h3>
-      <p>Catbox version 2.1 | Created by Ben Moon</p>
+      <h3>🐱 Catbox</h3>
+      <p>Version 1.1 | Created by <a class="modallink" href="https://boxit379.github.io">Ben Moon</a></p>
       <a class="modallink" href="changelog.html">Changelog</a>
-      <a class="modallink" href="https://boxit379.github.io">Homepage</a>
+    </div>
+    <div id="ex2" class="modal">
+      <h3>📕 The Catalog</h3>
+      <p>You've found <span id="amountFound">0</span>/6 cats</p>
     </div>
     <a id="About" href="#ex1" rel="modal:open">About</a>
+    <a href="#ex2" rel="modal:open"><img id="Catalog" src="images/book.png"></img></a>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- jQuery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="js/confetti.js" charset="utf-8"></script>
     <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
