@@ -5,15 +5,11 @@ body, html {
   padding: 0;
   background-color: $nord0;
   overflow: hidden;
+  font-family: sans-serif;
 }
 
 a {
   color: $nord6;
-}
-
-h6 {
-  word-spacing: -3px;
-  letter-spacing: 0px;
 }
 
 #Container {
@@ -26,19 +22,33 @@ h6 {
 
 #Credits {
   color: $nord4;
-  font-family: sans-serif;
   position: fixed;
   bottom: -20px;
   left: 10px;
 }
 
-#Changelog {
+#About {
   color: $nord4;
-  font-family: sans-serif;
   position: fixed;
   text-decoration: none;
   top: 10px;
   right: 10px;
+}
+
+#Catalog {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 5px;
+  right: 5px;
+}
+
+.modallink {
+  color: black;
+}
+
+.closeButton {
+  background-color: red;
 }
 
 #Cat {
