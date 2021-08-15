@@ -27,7 +27,6 @@ $("#Cat").click(function(){
     boxesOpened++;
     localStorage.setItem("boxSave", JSON.stringify(boxesOpened));
     document.getElementById("amountOpened").innerHTML = boxesOpened;
-    gtag('event', 'open', {});
     
     
     conffetiBlast();
