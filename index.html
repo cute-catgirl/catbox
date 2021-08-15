@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GV4Y9WJ7NZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GV4Y9WJ7NZ');
+    </script>
     <meta charset="utf-8">
     <title>Catbox</title>
     <link rel="stylesheet" href="css/main.css">
@@ -23,6 +32,7 @@
     </div>
     <div id="ex2" class="modal">
       <h3>📕 The Catalog</h3>
+      <p>You've opened <span id="amountOpened">0</span> boxes</p>
       <p>You've found <span id="amountFound">0</span>/6 cats</p>
     </div>
     <a id="About" href="#ex1" rel="modal:open">About</a>
