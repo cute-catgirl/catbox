@@ -27,8 +27,7 @@ $("#Cat").click(function(){
     boxesOpened++;
     localStorage.setItem("boxSave", JSON.stringify(boxesOpened));
     document.getElementById("amountOpened").innerHTML = boxesOpened;
-    
-    
+    dataLayer.push({'event': 'box-opened'});
     conffetiBlast();
     $(this).attr("src","images/cat" + catNum + ".png");
     if (catsFound.includes("images/cat" + catNum + ".png") == false) {
