@@ -1,2 +1,2 @@
-# catboxv2
- Catbox Evolved.
+# Catbox
+ Open a box, get a cat.
