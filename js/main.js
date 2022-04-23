@@ -41,6 +41,8 @@ $("#Cat").click(function(){
 
 $("#Reload").click(function(){
   $("#Cat").attr("src","images/box.png");
+  animateFloat();
+  $("#Credits").html();
 });
 
 function animateFloat() {
