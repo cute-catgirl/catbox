@@ -39,6 +39,10 @@ $("#Cat").click(function(){
   }
 });
 
+$("#Reload").click(function(){
+  $("#Cat").attr("src","images/box.png");
+});
+
 function animateFloat() {
   if ($('#Cat').attr('src') == 'images/box.png') {
     $("#Container").animate({height: '110vh'},1000);
