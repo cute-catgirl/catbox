@@ -41,7 +41,6 @@ $("#Cat").click(function(){
 
 $("#Reload").click(function(){
   $("#Cat").attr("src","images/box.png");
-  animateFloat();
 });
 
 function animateFloat() {
@@ -50,14 +49,12 @@ function animateFloat() {
   }
   else {
     $("#Container").animate({height: '100vh'},500);
-    return;
   }
   if ($('#Cat').attr('src') == 'images/box.png') {
     $("#Container").animate({height: '90vh'},1000,animateFloat);
   }
   else {
     $("#Container").animate({height: '100vh'},500);
-    return;
   }
 }
 
